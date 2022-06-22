@@ -12,10 +12,10 @@ Mysql --8.0.28
 
 ### 1 在 MySQL 中新建一个名为 `LibraryChatRoom` 的数据库，字符集选择 `UTF-8` 。
 
-### 2 安装 MySQL 驱动 `mysqlclient` 。
+### 2 安装 MySQL 驱动 `pymysql` 。
 
 ```
-pip install mysqlclient
+pip install pymysql
 ```
 
 ### 3 在 `LibraryChatRoom/LibraryChatRoom/settings.py` 中配置数据库的 `USER` 和 `PASSWORD`。
