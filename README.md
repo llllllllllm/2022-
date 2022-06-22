@@ -18,7 +18,7 @@ Mysql --8.0.28
 pip install mysqlclient
 ```
 
-### 3 在 `LibraryChatRoom/settings.py` 中配置数据库的 `USER` 和 `PASSWORD`。
+### 3 在 `LibraryChatRoom/LibraryChatRoom/settings.py` 中配置数据库的 `USER` 和 `PASSWORD`。
 
 ```
 DATABASES = {
