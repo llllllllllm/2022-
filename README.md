@@ -1,4 +1,4 @@
-# 2022-
+# 2022
 一个图书馆信息系统中的聊天室
 # 1 版本信息
 
@@ -10,15 +10,15 @@ Mysql --8.0.28
 
 # 2 启动程序
 
-##### 1 在 MySQL 中新建一个名为 `LibraryChatRoom` 的数据库，字符集选择 `UTF-8` 。
+### 1 在 MySQL 中新建一个名为 `LibraryChatRoom` 的数据库，字符集选择 `UTF-8` 。
 
-##### 2 安装 MySQL 驱动 `mysqlclient` 。
+### 2 安装 MySQL 驱动 `mysqlclient` 。
 
 ```
 pip install mysqlclient
 ```
 
-##### 3 在 `LibraryChatRoom/settings.py` 中配置数据库的 `USER` 和 `PASSWORD`。
+### 3 在 `LibraryChatRoom/settings.py` 中配置数据库的 `USER` 和 `PASSWORD`。
 
 ```
 DATABASES = {
@@ -36,24 +36,24 @@ DATABASES = {
 
 
 
-##### 4 进入项目目录下。
+### 4 进入项目目录下。
 
 ```
 cd ./LibraryChatRoom
 ```
 
-##### 5 迁移数据库。
+### 5 迁移数据库。
 
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-##### 6 启动系统。
+### 6 启动系统。
 
 ```
 python manage.py runserver
 ```
 
-##### 7 访问 127.0.0.1:8000 。
+### 7 访问 127.0.0.1:8000 。
 
